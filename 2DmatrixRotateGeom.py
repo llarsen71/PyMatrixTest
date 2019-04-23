@@ -36,7 +36,7 @@ for deg in range(0,361):
   # Maximum length of matrix vectors
   lenMax.append(max(float(Ar[0,:]*Ar[0,:].T)**0.5,float(Ar[1,:]*Ar[1,:].T)**0.5))
 
-  # Maximum length of matrix vectors
+  # Minimum length of matrix vectors
   lenMin.append(min(float(Ar[0,:]*Ar[0,:].T)**0.5,float(Ar[1,:]*Ar[1,:].T)**0.5))
 
   # Difference in length of vectors
