@@ -55,7 +55,7 @@ plt.xlabel("Degrees")
 
 plt.figure()
 plt.plot(degrees, lenDiff)
-plt.ylabel("Vec")
+plt.ylabel("Vec. Length Difference")
 plt.xlabel("Degrees")
 
 plt.show()
